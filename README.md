@@ -105,6 +105,31 @@ le formulaire de PR, copier son contenu dans
 [Déclenchement des pipelines](https://docs.gitlab.com/ci/yaml/workflow/) ·
 [Contrôles avant fusion](https://docs.gitlab.com/user/project/merge_requests/auto_merge/#require-a-successful-pipeline-for-merge).
 
+## Suivre les tâches du projet
+
+Utiliser l’outil de suivi retenu au kick-off. Si l’équipe dispose déjà d’un
+outil adapté, y suivre les actions du projet.
+
+### GitHub
+
+- **Dépôt dans l’organisation SequoIA** : ouvrir **Projects → New project**
+  dans l’organisation, sélectionner **SequoIA template**, puis nommer et
+  créer le tableau.
+- **Dépôt dans une autre organisation ou sur un compte personnel** : créer
+  le tableau dans l’espace où l’équipe travaille. Si le tableau source
+  **SequoIA template** est accessible et propose **⋯ → Make a copy**,
+  sélectionner l’organisation ou le compte de destination lors de la copie.
+  Sinon, partir du modèle **Kanban** de GitHub et rajouter les status et labels utiles au projet.
+
+Associer le dépôt au tableau et y ajouter les issues correspondant aux
+actions validées au kick-off.
+
+### GitLab
+
+Si l’équipe a besoin d’un tableau, utiliser le tableau d’issues du dépôt.
+Reprendre les statuts et les labels SequoIA qui sont utiles au projet.
+Un modèle GitLab pourra être préparé à partir des premiers retours d’usage.
+
 ## Construire un paquet si le projet doit être installé
 
 Le socle exécute les contrôles directement depuis le dépôt. Pour une bibliothèque
