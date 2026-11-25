@@ -121,8 +121,18 @@ outil adapté, y suivre les actions du projet.
   sélectionner l’organisation ou le compte de destination lors de la copie.
   Sinon, partir du modèle **Kanban** de GitHub et rajouter les status et labels utiles au projet.
 
-Associer le dépôt au tableau et y ajouter les issues correspondant aux
-actions validées au kick-off.
+Dans le tableau, ouvrir **⋯ → Settings → Default repository**, sélectionner
+le dépôt du projet, puis cliquer sur **Save changes**. [Dépôt par défaut dans GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-your-project/adding-your-project-to-a-repository#setting-a-default-repository-for-your-project)
+
+Créer de préférence les issues depuis le tableau, en commençant par les actions
+validées au kick-off. Elles seront créées dans le dépôt par défaut et ajoutées
+au tableau. Pour chaque issue, préciser le responsable et le résultat attendu.
+
+Si l’équipe crée ses issues depuis l’onglet **Issues** du dépôt, configurer
+au préalable **⋯ → Workflows → Auto-add to project** dans le tableau.
+Sélectionner le dépôt, saisir le filtre `is:issue is:open`, puis cliquer sur
+**Save and turn on workflow**. Ajouter manuellement les issues déjà ouvertes
+que l’équipe souhaite suivre. [Ajout automatique dans GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically)
 
 ### GitLab
 
