@@ -167,11 +167,17 @@ les distributions et installe la wheel dans un environnement vierge. Si la
 distribution fait partie des livrables, rendre `Package` obligatoire après son
 premier passage.
 
+## Utiliser un assistant IA pour le développement
+
+Si le cadrage validé autorise l’usage d’un assistant IA, utiliser les outils approuvés pour le projet et respecter les règles de partage du code, des données et des journaux. Le [catalogue des skills SequoIA](https://github.com/Cluster-SequoIA-pole-ingenieurs/sequoia-toolkit/tree/main/skills)
+présente les instructions réutilisables et leur mode d’installation.
+
+Après validation du kick-off et de la politique IA, utiliser le skill
+[`sequoia-project-bootstrap`](https://github.com/Cluster-SequoIA-pole-ingenieurs/sequoia-toolkit/blob/main/skills/sequoia-project-bootstrap/SKILL.md) pour créer ou mettre à jour `AGENTS.md`. Lui fournir le dépôt du projet et le kick-off validé, ou un extrait approuvé. Le skill s’appuie sur le cadrage et les fichiers du dépôt pour préparer des instructions propres au projet, à relire par l’ingénieur.
+
 ## Références à compléter
 
 - Cadrage validé, critères d'acceptation et politique IA : référence approuvée.
 - Données et modèles : modalités d'accès, licences et versions de référence.
 - Responsable de maintenance et procédure de transfert.
 - Licence du code : à convenir avant diffusion.
-
-Créer l'AGENTS.md une fois le cadrage et la politique IA validés.
